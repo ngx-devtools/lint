@@ -1,0 +1,24 @@
+{
+  "name": "ngx-lint",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/ngx-lint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/ngx-lint/issues"
+  },
+  "homepage": "https://github.com/aelbore/ngx-lint#readme",
+  "dependencies": {
+    "codelyzer": "4.0.2",
+    "custom-tslint-formatters": "2.1.1",
+    "tslint": "5.9.1"
+  }
+}
