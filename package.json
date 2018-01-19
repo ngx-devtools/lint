@@ -17,10 +17,6 @@
   },
   "homepage": "https://github.com/aelbore/ngx-lint#readme",
   "dependencies": {
-    "@angular/common": "5.2.0",
-    "@angular/core": "5.2.0",
-    "@angular/platform-browser": "5.2.0",
-    "@angular/platform-browser-dynamic": "5.2.0",
     "codelyzer": "4.0.2",
     "custom-tslint-formatters": "2.1.1",
     "tslint": "5.9.1"
