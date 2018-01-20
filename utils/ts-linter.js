@@ -14,12 +14,10 @@ const tslinter = () => {
   const transformStream = new Transform({
     objectMode: true,
     transform (file, enc, done) {
-      if (existsSync(tslintConfigPath)){
-        const linter = new Linter(lintOptions);
-        const configuration = Configuration.findConfiguration(tslintConfigPath, file.path).results;
-        linter.lint(file.path, file.contents.toString('utf8'), configuration);
-        file.tslint = linter.getResult();
-      }
+      const linter = new Linter(lintOptions);
+      const configuration = Configuration.findConfiguration(tslintConfigPath, file.path).results;
+      linter.lint(file.path, file.contents.toString('utf8'), configuration);
+      file.tslint = linter.getResult();
       done(null, file);
     }
   });

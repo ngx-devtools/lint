@@ -5,11 +5,11 @@ const PluginError = require('plugin-error');
 const { findFormatter } = require('tslint');
 
 const log = (message, level) => {
-  const tsLintWorldColor = chalk.cyan('tslint');
+  const tsLintWordColor = chalk.cyan('tslint');
   const tslintError = chalk.red('error');
   const tslintMessage = chalk.white(message);
 
-  const prefix = '[' + tsLintWorldColor + ']';
+  const prefix = '[' + tsLintWordColor + ']';
   if (level === "error") {
     console.log(`${prefix} ${tslintError}: ${tslintMessage}`);
   } else { 
