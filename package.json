@@ -1,5 +1,5 @@
 {
-  "name": "ngx-lint",
+  "name": "@ngx-devtools/lint",
   "version": "0.0.5",
   "description": "",
   "main": "index.js",
