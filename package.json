@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/aelbore/ngx-lint#readme",
   "dependencies": {
-    "codelyzer": "4.0.2",
-    "custom-tslint-formatters": "2.1.1",
+    "codelyzer": "4.1.0",
+    "custom-tslint-formatters": "2.2.0",
     "tslint": "5.9.1"
   }
 }
